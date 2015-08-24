@@ -12,11 +12,4 @@ Vagrant.configure(2) do |config|
   # config.vm.network "public_network"
   # config.vm.synced_folder "../data", "/vagrant_data"
 
-  # naming
-  config.vm.define "andsvm" do |andsvm|
-  end
-  config.vm.provider :virtualbox do |vb|
-    vb.name = "andsvm"
-  end
-
 end
